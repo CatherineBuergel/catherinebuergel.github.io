@@ -118,7 +118,12 @@ header {
 
 .contact-me {
   height: 30vh;
+  margin-top: 0;
   
+}
+
+.footer {
+  height: 10vh;
 }
 
 

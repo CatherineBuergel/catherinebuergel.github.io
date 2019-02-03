@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.2.1/sandstone/bootstrap.css" />
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
@@ -22,16 +24,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarColor01">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link js-scroll-trigger" href="#myskills">Skills</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link js-scroll-trigger" href="#contactme">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -50,11 +52,11 @@
     </div>
   </header>
 
-  <section class="text-center text-white bg-info">
+  <section class="text-center text-white bg-info mb-5">
     <div class="container">
       <div class="row aboutme">
-        <div class="col-sm-12 col-md-6">
-          <img class="image-me" src="https://picsum.photos/300/300/?random" alt="">
+        <div class="col-sm-12 col-md-6 text-center mt-5">
+          <img class="image-me mx-auto" src="https://picsum.photos/300/300/?random" alt="">
         </div>
         <div class="col-sm-12 col-md-6">
           <h1 id="about">About Me</h1>
@@ -68,7 +70,7 @@
     </div>
   </section>
 
-  <section class="skills text-center">
+  <section class="skills text-center" id="myskills">
     <div class="container">
       <div class="row my-5">
         <div class="col-sm-12">
@@ -125,14 +127,14 @@
     </div>
   </section>
 
-  <section class="project bg-light">
+  <section class="project bg-light" id="portfolio">
     <div class="container">
       <div class="row">
-        <div class="col d-flex justify-content-center mt-5">
+        <div class="col-sm-12 d-flex justify-content-center mt-5">
           <h2 class="text-uppercase"><strong>Portfolio</strong></h2>
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row mt-5 text-center">
         <div class="col-sm-12 col-md-4">
           <figure class="figure">
             <a href=""><img class="project1" src="https://picsum.photos/300/300/?random" alt=""></a>
@@ -152,7 +154,7 @@
           </figure>
         </div>
       </div>
-      <div class="row">
+      <div class="row text-center">
         <div class="col-sm-12 col-md-4">
           <figure class="figure">
             <a href=""><img class="project4" src="https://picsum.photos/300/300/?random" alt=""></a>
@@ -175,21 +177,32 @@
     </div>
   </section>
 
-  <section class="contact-me my-5 text-center bg-danger">
+  <section class="contact-me text-center bg-danger" id="contactme">
     <div class="container">
       <div class="row">
-        <div class="col">
-          <p>this will be a form</p>
+        <div class="col-sm-12 text-white my-5">
+          <h2 class="text-uppercase">get in touch!</h2>
+          <h4>If you like what you see, don't hesitate to reach out!</h4>
+        </div>
+      </div>
+      <div class="row my-auto">
+        <div class="col-sm-12 col-md-4">
+          <a href="tel://619-398-6804"><i class="fas fa-phone fa-5x text-white"></i></a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <a href="mailto:catherinebuergel@gmail.com"><i class="fas fa-envelope fa-5x text-white"></i></a>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <i class="fas fa-file-alt fa-5x text-white"></i>
         </div>
       </div>
     </div>
   </section>
 
   <footer>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center bg-primary footer">
       <div class="row">
-        <div class="col">
-          <p>This will be my footer</p>
+        <div class="col-sm-12">
         </div>
       </div>
     </div>
