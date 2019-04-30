@@ -25,6 +25,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 50vh;
+  min-height: fit-content;
   
 }
 
@@ -35,7 +36,7 @@ header {
 }
 
 .skills {
-  height: 50vh;
+  height: 60vh;
 }
 
 .skill-row {
@@ -126,4 +127,36 @@ header {
   height: 10vh;
 }
 
+.icon {
+  height: 65px;
+  padding-bottom: 5px;
+}
 
+#js-bar {
+  background-color: #e6a329;
+}
+
+#node-bar {
+  background-color: #77b063;
+}
+#c-sharp-bar {
+  background-color: #a17adc;
+}
+#vue-bar {
+  background-color: #41b883;
+}
+#mongoDB-bar {
+  background-color: #402f1f;
+}
+#mySQL-bar {
+  background-color: #197c95;
+}
+#dotnet-bar {
+  background-color: #5a2d90;
+}
+#bootstrap-bar {
+  background-color: #7952b3;
+}
+#git-bar {
+  background-color: #f04f34;
+}
