@@ -1,17 +1,49 @@
-#main-top {
-  background-image: url(/assets/andre-iv-1310544-unsplash.jpg);
-  background-size: cover;
-  height: 80vh;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-primary {
+  background-color: transparent !important;
+}
+.navbar, .nav-link{
+  font-size: 1rem !important;
   color: white;
-  text-shadow: 0px 2px black;
+  text-shadow:2px 2px #333;
+  
   
 }
-header {
+
+.bgimage {
+  width:100%;
+  height: 100vh;
+  background: url('/assets/glasses.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.make-eighty-vh{
+  height: 80vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  position: attached;
 }
+
+.bgimage h5, h1, h2 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+
+.top{
+  opacity: 1;
+}
+
 
 .main-block {
  display: flex;
@@ -24,19 +56,34 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
   min-height: fit-content;
   
 }
 
-.image-me {
-  display: flex;
-  border-radius: 50%;
-  
+.about-me-text {
+  border-left: 2px solid black;
 }
 
-.skills {
+.ab-me-bg {
+  background-color: #beb5af;
+  height: 100vh;
+}
+
+.image-me {
+  border-radius: 50%;
+  object-fit: scale-down;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+/* .skills {
   height: 60vh;
+} */
+
+.skills-section {
+  background-color: #98bfcc;
 }
 
 .skill-row {
@@ -72,6 +119,7 @@ header {
 .project2 {
   opacity: 0.7;
   border-radius: 10%;
+  filter: opacity(0.5)
 }
 
 .project3:hover {
